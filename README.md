@@ -1,4 +1,5 @@
-# School_District_Analysis
+# Schools_District_Analysis
+
 
 Student Name: Soona Britney Cheon
 Date: 10/16/2020
@@ -28,14 +29,16 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 C. Results: 
 (Using bulleted lists and images of DataFrames as support, address the following questions.)
 
-Data Cleaning: In the school ditrcit, 
+0) Data Cleaning: In the school ditrcit, 
 - we have 15 schools from greade 9th to 12th.  
 - the total number of students in the school distrct is 39,170, 11,408 students in 9th grade in the scenario, we have 461 students in the Thomas High School at 9th gread, who was academically dishonest, and could nuse the math and reading scores in the analysis. 
 - This is 1.17% of the total students, and 4.04% of the total 9th graders in the school district. Thus, this dropped out data of Thomas High School 9th graders will impact the 9th graders performance analysis.
 
 1) How is the district summary affected?
 - The number of the students in the Thomas High School 9th grade are 461, this group's (THS_9) average reading score is 83.72, average math score is 83.59.
-- Meantime, the total number of the school district is 39,170 including THS_9 students, and 38,709 excluding the THS_9 students. When exclude the THS_9 students from the total      
+- Meantime, the total number of the school district is 39,170 including THS_9 students, and 38,709 excluding the THS_9 students. When exclude the THS_9 students from the total, the average reading score is 81.86, average math score is 78.93.
+it means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
+
 2) How is the school summary affected?
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 4) How does replacing the ninth-grade scores affect the following:
@@ -46,6 +49,7 @@ Data Cleaning: In the school ditrcit,
 
 Summary: 
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/THS_9_NaN.PNG?raw=true
 
 Deliverable 3 Requirements
 Structure, Organization, and Formatting (7 points)
