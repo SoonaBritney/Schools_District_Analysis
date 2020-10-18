@@ -37,9 +37,11 @@ C. Results:
 1) How is the district summary affected?
 - The number of the students in the Thomas High School 9th grade are 461, this group's (THS_9) average reading score is 83.72, average math score is 83.59.
 - Meantime, the total number of the school district is 39,170 including THS_9 students, and 38,709 excluding the THS_9 students. When exclude the THS_9 students from the total, the average reading score is 81.86, average math score is 78.93.
-it means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
+- It means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
 
 2) How is the school summary affected?
+- We analyzed the school summery per school.
+
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 4) How does replacing the ninth-grade scores affect the following:
 5) Math and reading scores by grade
