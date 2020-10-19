@@ -59,12 +59,19 @@ BEFORE AD AFTER WE CHNAGE Thomas High School 9th Grade students data to Nan
 BEFORE WE DROP THS_9 record as NAN ========> AFTER WE DROP THS_9 records as NAN
 ========================================================================================
 (1)Total Schools	15 ========> 15 (Analysis: it is school data specific, so there is no impact)
+
 (2)Total Students	39,170 ========> 38,709 (Analysis: the total student is decreaed for 461, which will impact the average score, school budget per capital, school performance per School size, School performance per grade, etc. will impact the entire analysis. )
+
 (3)Total Budget	$24,649,428.00 ========> $24,649,428.00 (Analysis: it is same but if we drop the student account, it will misinform that per student school budget spnding will look like increaesed, and it is not true.)
+
 (4) Average Math Score	79.0 ============> 78.9 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the average math score was 0.1% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+
 (5) Average Reading Score		81.9 ============> 81.9 (Analysis: it looks like same, but it is calculated per new total student account, 38,709.)
+
 (6) % Passing Math	75.0 ============> 74.8  (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Math was 0.2% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+
 (7)% Passing Reading		85.8 ===========>  85.7 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Reading was 01.% lower before. It could be a good evidence, that THS 9th greade students are not actully outprrforming group. It concerns the data quality and realiability & validity of the School Analysis.)
+
 (8) % Overall Passing 65.2 =============>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)
 
 ====================================================================================
