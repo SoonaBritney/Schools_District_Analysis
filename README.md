@@ -32,22 +32,45 @@ C. Results:
 0) Data Cleaning: In the school ditrcit, 
 - we have 15 schools from greade 9th to 12th.  
 - the total number of students in the school distrct is 39,170, 11,408 students in 9th grade in the scenario, we have 461 students in the Thomas High School at 9th gread, who was academically dishonest, and could nuse the math and reading scores in the analysis. 
+- the student size per school is as below
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_counts.PNG
 - This is 1.17% of the total students, and 4.04% of the total 9th graders in the school district. Thus, this dropped out data of Thomas High School 9th graders will impact the 9th graders performance analysis.
 
 1) How is the district summary affected?
 - The number of the students in the Thomas High School 9th grade are 461, this group's (THS_9) average reading score is 83.72, average math score is 83.59.
 - Meantime, the total number of the school district is 39,170 including THS_9 students, and 38,709 excluding the THS_9 students. When exclude the THS_9 students from the total, the average reading score is 81.86, average math score is 78.93.
 - It means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/district_summary.PNG
+
 
 2) How is the school summary affected?
-- We analyzed the school summery per school.
+- We analyzed the school summery per school, and here is the summary
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_summary.PNG
+
 
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+- the 9th grade students in Thomas High School is analyzed as below.  
+
 4) How does replacing the ninth-grade scores affect the following:
+
 5) Math and reading scores by grade
-6) Scores by school spending
-7) Scores by school size
-8) Scores by school type
+Here is the reading scores per grade in the district 
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/reading_per_grade.PNG
+here is the math scores per grade in the district
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/math_scores_by_grade.PNG
+
+6) top 5 schools & bottom 5 schools
+top 5 schools - https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/top_5_schools.PNG
+bottom 5 schools - https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/bottom_5_schools.PNG
+
+7) Scores by school spending
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/spending_summary.PNG
+
+8) Scores by school size
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_size_analysis.PNG
+
+9) Scores by school type
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_type_analysis.PNG
 
 Summary: 
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
