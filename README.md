@@ -83,16 +83,21 @@ BEFORE WE DROP THS_9 record as NAN ========> AFTER WE DROP THS_9 records as NAN
 
 2) How is the school summary affected?
 - We analyzed the school summery per school, and here is the summary
+school analysis summary
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_summary.PNG
+
+school analysis summary per school
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_summary.PNG
 
 - In the school district, we have 15 schools, 38,709 students, total budget is $24,649,428.00, Average Math Score is 78.9, 	Average Reading Score is 81.9, 
 % Passing Math is 85.7%, % Passing Reading	is 85.7%, and finally the % Overall Passing is 64.9%.
 The school ditrict should focus on improving academic performance in math in general.
-- if we remove the THS 9th grade students scores, the outcome was not significantly altered. The assumption is the academic dishonety may happend in math, but it was not severe.  
+- if we remove the THS 9th grade students scores, the outcome was not significantly altered. In fact, the dishonest math and reading scores of 461 THS_9th gradee studnts data needed to be NaN, and it altered the analsis in every aspects.  
 ========================================================================
 
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - the 9th grade students in Thomas High School is analyzed as below.  
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_summary.PNG
 
 4) How does replacing the ninth-grade scores affect the following:
 (1)THS_9 Math and Reading scores became NaN:
@@ -100,7 +105,7 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 (2) The math and reading scores became lower after THS_9 dishonest scores cleaned up.
 
 5) Math and reading scores by grade
-Here is the reading scores per grade in the district 
+Here is the reading scores per grade in the district (showing NaN for THS_9th grade) 
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/reading_per_grade.PNG
 here is the math scores per grade in the district
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/math_scores_by_grade.PNG
@@ -108,14 +113,16 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 ===============================================================================
 
 6) top 5 schools & bottom 5 schools
+Here are the results:
 top 5 schools - https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/top_5_schools.PNG
 bottom 5 schools - https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/bottom_5_schools.PNG
 
 ==================================================================================
 
 7) Scores by school spending
+The outcome is as below.
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/spending_summary.PNG
-the finding is vey interesting, that the school spending per school was not significatly improve the school performance. 
+The finding is vey interesting, that the school spending per school was not significatly improve the school performance. 
 
 =================================================================================
 
@@ -143,29 +150,30 @@ Concluion:
 As we analysize the data after changed the math and reading scores of the Thomas High School at 9th grade, we are experiencig a significant realiability and validity issue with the data quality, and analysis outcome.
 As we can see below, the altered 461 student's math and reading scores shows the strong evidence of academic dishonesty in reading and math, specifically % math passed rate, and average math score. 
 
-Comparison BEFORE and AFTER WE CHNAGE Thomas High School 9th Grade students data to Nan
-==========================================================================
+(1) Data Cleaning: Thomas High School 9th grade students math and reading scores are obvioously high than it was supposed to be. After we dropped these scores as NaN, the average, and the count of passed math & reading, % of passed math reading has lowed. ==> it was a proper idea to made this groups test score as NaN.
+(2) School Summary: After THS_9th grade students scores are treated as Nan, the snapshot of schools, students list, student count, and the most importantly math scores and reading scores of average, count of passed, % of passed students in math and reading became lower. 
+3) High and Low Performance Schools - as below
+- top 5 schools (Cabrera Hish School was the best school in the school district)
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/top_5_schools.PNG
+- bottom 5 schools (The Rodriguez High school was the worst in academic standard point)
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/bottom_5_schools.PNG
 
-As stated above, after we dropped the 461 Thomas High School students math and reading scores as NaN,
-(1)Total Schools	15 ========> 15 (Analysis: it is school data specific, so there is no impact)
+4) Math and Reading Scores by Grade in the school ditrict: we will analyze the math and reading scores to find out the below
+ - math scores per grade (THS_9 matjs score shows as NaN) - it became lower than before since dishonest scores were treated as NaN
+ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/math_scores_by_grade.PNG
+ 
+ - reading scores per grade (THS_9 matjs score shows as NaN) - it became lower than before since dishonest scores were treated as NaN
+ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/reading_per_grade.PNG
+ 
+5) Scores by School Spending - the school spnding er capita was not a significant factor to improve students academic performance. 
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/spending_summary.PNG
 
-(2)Total Students	39,170 ========> 38,709 (Analysis: the total student is decreaed for 461, which will impact the average score, school budget per capital, school performance per School size, School performance per grade, etc. will impact the entire analysis. )
+6) Scores by School Size - the smaller school size is better for academic performance
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_size_analysis.PNG
 
-(3)Total Budget	$24,649,428.00 ========> $24,649,428.00 (Analysis: it is same but if we drop the student account, it will misinform that per student school budget spnding will look like increaesed, and it is not true.)
+7) Scores by School Type - the charter school was better for school academic performance
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_type_analysis.PNG
 
-(4)Average Math Score	79.0 =========> 78.9 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the average math score was 0.1% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
-
-(5)Average Reading Score		81.9 ========> 81.9 (Analysis: it looks like same, but it is calculated per new total student account, 38,709.)
-
-(6)% Passing Math	75.0 =====> 74.8  (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Math was 0.2% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
-
-(7)% Passing Reading		85.8 ========>  85.7 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Reading was 01.% lower before. It could be a good evidence, that THS 9th greade students are not actully outprrforming group. It concerns the data quality and realiability & validity of the School Analysis.)
-
-(8) % Overall Passing 65.2 ========>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)
-
-
-NaN Screenshoshots:
-https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/THS_9_NaN.PNG?raw=true
 
 THnak you.
 
