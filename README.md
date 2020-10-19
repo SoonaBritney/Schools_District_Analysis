@@ -47,11 +47,16 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 ==============================================================================
 
 1) How is the district summary affected?
-Due to the Academic dishonesty, we decided to make the Thomas High School Students math and Reading scores as NaaN
+Due to the Academic dishonesty, we decided to make the Thomas High School Students math and Reading scores as NaN
 
 (1) The number of the students in the Thomas High School 9th grade is 461 among total 1635 students in the Thomas High School, This group's (THS_9) average reading score is 83.84, average math score is 83.59, which is higher than the average score in the district. However, when we compared the average scores of the 10th, 11th, 12th grade students in the Thomas High School, it was almost same level. Althouhg, if we make the THS 9th grader's reading and math scores as NaN, recalculate the average, the average reading score in Thomas High School was went up (83.85 ==>83.89), and the average math score actually went down (83.41 ==> 83.35). Thye assumption is, if the THS 9th greade students were dishonest, prabably, they did more in math.  
 (2) Meantime, the total number of the school district is 39,170 including THS_9 students, and 38,709 excluding the THS_9 students. When exclude the THS_9 students from the total, the average reading score is 81.86, average math score is 78.93.
 (3) It means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
+
+Disticrt summary before cleaning THS_9 dishonest data
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/dictrict_summary_before_clean_THS_9.PNG
+
+District summary after cleaning THS_9 dishonest data as NaN
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/district_summary.PNG
 
 BEFORE AD AFTER WE CHNAGE Thomas High School 9th Grade students data to Nan
@@ -90,6 +95,9 @@ The school ditrict should focus on improving academic performance in math in gen
 - the 9th grade students in Thomas High School is analyzed as below.  
 
 4) How does replacing the ninth-grade scores affect the following:
+(1)THS_9 Math and Reading scores became NaN:
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/THS_9th_Grade_Math_Reading_NaN.PNG
+(2) The math and reading scores became lower after THS_9 dishonest scores cleaned up.
 
 5) Math and reading scores by grade
 Here is the reading scores per grade in the district 
