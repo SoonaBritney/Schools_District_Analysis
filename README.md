@@ -6,7 +6,7 @@ Module 4 Challenge
 
 TITLE: School Distrcit Analysis
 1. Overview of the school district analysis: 
-=========================================================================================
+=============================================================================
 
 A. PURPOSE
 The purpose of the Scholl District Analysis is analying the below:
@@ -20,7 +20,7 @@ The purpose of the Scholl District Analysis is analying the below:
 6) Scores by School Size - we will analize the school size and students' academic pefromance to find out the ideal school size for the best academic performance for students 
 7) Scores by School Type -we will analize the school type and students' academic pefromance to find out the ideal school size for the best academic performance for students 
 
-=========================================================================================
+================================================================================
 
 B. Background
 
@@ -31,7 +31,7 @@ specifically, reading and math grades for Thomas High School ninth graders appea
 NaN SCREENSHOT:
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/THS_9_NaN.PNG?raw=true
 
-========================================================================================
+==============================================================================
 C. Results: 
 (Using bulleted lists and images of DataFrames as support, address the following questions.)
 
@@ -44,7 +44,7 @@ C. Results:
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_counts.PNG
 - This is 1.17% of the total students, and 4.04% of the total 9th graders in the school district. Thus, this dropped out data of Thomas High School 9th graders will impact the 9th graders performance analysis.
 
-=========================================================================================
+==============================================================================
 
 1) How is the district summary affected?
 Due to the Academic dishonesty, we decided to make the Thomas High School Students math and Reading scores as NaaN
@@ -74,7 +74,7 @@ BEFORE WE DROP THS_9 record as NAN ========> AFTER WE DROP THS_9 records as NAN
 
 (8) % Overall Passing 65.2 =============>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)
 
-====================================================================================
+========================================================================
 
 2) How is the school summary affected?
 - We analyzed the school summery per school, and here is the summary
@@ -84,7 +84,7 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 % Passing Math is 85.7%, % Passing Reading	is 85.7%, and finally the % Overall Passing is 64.9%.
 The school ditrict should focus on improving academic performance in math in general.
 - if we remove the THS 9th grade students scores, the outcome was not significantly altered. The assumption is the academic dishonety may happend in math, but it was not severe.  
-==================================================================================
+========================================================================
 
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
 - the 9th grade students in Thomas High School is analyzed as below.  
