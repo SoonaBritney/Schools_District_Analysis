@@ -46,14 +46,14 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 BEFORE AD AFTER WE CHNAGE Thomas High School 9th Grade students data to Nan
 
 BEFORE WE DROP THS_9 record as NAN ========> AFTER WE DROP THS_9 records as NAN
-Total Schools	15 ===========> 15 (Analysis: it is school data specific, so there is no impact)
-Total Students	39,170 ===========> 38,709 (Analysis: the total student is decreaed for 461, which will impact the average score, school budget per capital, school performance per School size, School performance per grade, etc. will impact the entire analysis. )
-Total Budget	$24,649,428.00 ===========> $24,649,428.00 (Analysis: it is same but if we drop the student account, it will misinform that per student school budget spnding will look like increaesed, and it is not true.)
-Average Math Score	79.0 ==============> 78.9 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the average math score was 0.1% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
-Average Reading Score		81.9 ============> 81.9 (Analysis: it looks like same, but it is calculated per new total student account, 38,709.)
-% Passing Math	75.0 ================> 74.8  (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Math was 0.2% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
-% Passing Reading		85.8 ==============>  85.7 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Reading was 01.% lower before. It could be a good evidence, that THS 9th greade students are not actully outprrforming group. It concerns the data quality and realiability & validity of the School Analysis.)
-% Overall Passing 65.2 ===============>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)
+-Total Schools	15 ===========> 15 (Analysis: it is school data specific, so there is no impact)
+-Total Students	39,170 ===========> 38,709 (Analysis: the total student is decreaed for 461, which will impact the average score, school budget per capital, school performance per School size, School performance per grade, etc. will impact the entire analysis. )
+-Total Budget	$24,649,428.00 ===========> $24,649,428.00 (Analysis: it is same but if we drop the student account, it will misinform that per student school budget spnding will look like increaesed, and it is not true.)
+-Average Math Score	79.0 ==============> 78.9 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the average math score was 0.1% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+-Average Reading Score		81.9 ============> 81.9 (Analysis: it looks like same, but it is calculated per new total student account, 38,709.)
+-% Passing Math	75.0 ================> 74.8  (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Math was 0.2% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+-% Passing Reading		85.8 ==============>  85.7 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Reading was 01.% lower before. It could be a good evidence, that THS 9th greade students are not actully outprrforming group. It concerns the data quality and realiability & validity of the School Analysis.)
+-% Overall Passing 65.2 ===============>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)
 			
 2) How is the school summary affected?
 - We analyzed the school summery per school, and here is the summary
@@ -85,6 +85,10 @@ the finding is vey interesting, that the school spending per school was not sign
 
 8) Scores by school size
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_size_analysis.PNG
+When we compared the Average Math Score, Average Reading Score,	% Passing Math,	% Passing Reading, % Overall PassingThe analysis compared with school size, it shows that when the school size is smaller, the academic performance was better.
+The best performance: Small (<1000) school size	> 
+The second best performance: Medium (1000-2000)	> 
+The least performance: Large (2000-5000)
 
 9) Scores by school type
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_type_analysis.PNG
@@ -95,19 +99,24 @@ School Type
 Charter	- Average Math Score:83.5, 	Average Reading Score:83.9,		% Passing Math:90,	% Passing Reading:93	% Overall Passing:87%
 District	- Average Math Score:77.0	Average Reading Score: 81.0,	% Passing Math:67,	% Passing Reading: 81	% Overall Passing:54%
 
-Summary: 
+Concluion:
+As we analysize the data after changed the math and reading scores of the Thomas High School at 9th grade, we are experiencig a significant realiability and validity issue with the data quality, and analysis outcome.
+As we can see below, the altered 461 student's math and reading scores shows the strong evidence of academic dishonesty in reading and math, specifically % math passed rate, and average math score. 
+
+BEFORE AD AFTER WE CHNAGE Thomas High School 9th Grade students data to Nan
+
+BEFORE WE DROP THS_9 record as NAN ========> AFTER WE DROP THS_9 records as NAN
+-Total Schools	15 ===========> 15 (Analysis: it is school data specific, so there is no impact)
+-Total Students	39,170 ===========> 38,709 (Analysis: the total student is decreaed for 461, which will impact the average score, school budget per capital, school performance per School size, School performance per grade, etc. will impact the entire analysis. )
+-Total Budget	$24,649,428.00 ===========> $24,649,428.00 (Analysis: it is same but if we drop the student account, it will misinform that per student school budget spnding will look like increaesed, and it is not true.)
+-Average Math Score	79.0 ==============> 78.9 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the average math score was 0.1% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+-Average Reading Score		81.9 ============> 81.9 (Analysis: it looks like same, but it is calculated per new total student account, 38,709.)
+-% Passing Math	75.0 ================> 74.8  (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Math was 0.2% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+-% Passing Reading		85.8 ==============>  85.7 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Reading was 01.% lower before. It could be a good evidence, that THS 9th greade students are not actully outprrforming group. It concerns the data quality and realiability & validity of the School Analysis.)
+-% Overall Passing 65.2 ===============>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)wSummary: 
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/THS_9_NaN.PNG?raw=true
 
-Deliverable 3 Requirements
-Structure, Organization, and Formatting (7 points)
-The written analysis has the following structure, organization, and formatting:
-
-There is a title, and there are multiple sections (2 pt).
-Each section has a heading and subheading (3 pt).
-Links to images are working, and code is formatted and displayed correctly (2 pt).
-Analysis (18 points)
-The written analysis has the following:
 
 
 ave 
