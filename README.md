@@ -30,24 +30,59 @@ C. Results:
 (Using bulleted lists and images of DataFrames as support, address the following questions.)
 
 0) Data Cleaning: In the school ditrcit, 
-- we have 15 schools from greade 9th to 12th.  
+- we have 15 schools from greade 9th to 12th in the district.   
 - the total number of students in the school distrct is 39,170, 11,408 students in 9th grade in the scenario, we have 461 students in the Thomas High School at 9th gread, who was academically dishonest, and could nuse the math and reading scores in the analysis. 
+- the average reading score cross schools in the distrcit is 81.87, while average math score is 78.98. It means students' performance is better in the reading subject.  
+- the student size per school is as below
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_counts.PNG
 - This is 1.17% of the total students, and 4.04% of the total 9th graders in the school district. Thus, this dropped out data of Thomas High School 9th graders will impact the 9th graders performance analysis.
 
 1) How is the district summary affected?
-- The number of the students in the Thomas High School 9th grade are 461, this group's (THS_9) average reading score is 83.72, average math score is 83.59.
+- The number of the students in the Thomas High School 9th grade is 461 among total 1635 students in the Thomas High School, This group's (THS_9) average reading score is 83.84, average math score is 83.59, which is higher than the average score in the district. However, when we compared the average scores of the 10th, 11th, 12th grade students in the Thomas High School, it was almost same level. Althouhg, if we make the THS 9th grader's reading and math scores as NaN, recalculate the average, the average reading score in Thomas High School was went up (83.85 ==>83.89), and the average math score actually went down (83.41 ==> 83.35). Thye assumption is, if the THS 9th greade students were dishonest, prabably, they did more in math.  
 - Meantime, the total number of the school district is 39,170 including THS_9 students, and 38,709 excluding the THS_9 students. When exclude the THS_9 students from the total, the average reading score is 81.86, average math score is 78.93.
 - It means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/district_summary.PNG
+
 
 2) How is the school summary affected?
-- We analyzed the school summery per school.
+- We analyzed the school summery per school, and here is the summary
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_summary.PNG
+
+- In the school district, we have 15 schools, 38,709 students, total budget is $24,649,428.00, Average Math Score is 78.9, 	Average Reading Score is 81.9, 
+% Passing Math is 85.7%, % Passing Reading	is 85.7%, and finally the % Overall Passing is 64.9%.
+The school ditrict should focus on improving academic performance in math in general.
+- if we remove the THS 9th grade students scores, the outcome was not significantly altered. The assumption is the academic dishonety may happend in math, but it was not severe.  
 
 3) How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+- the 9th grade students in Thomas High School is analyzed as below.  
+
 4) How does replacing the ninth-grade scores affect the following:
+
 5) Math and reading scores by grade
-6) Scores by school spending
-7) Scores by school size
-8) Scores by school type
+Here is the reading scores per grade in the district 
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/reading_per_grade.PNG
+here is the math scores per grade in the district
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/math_scores_by_grade.PNG
+
+6) top 5 schools & bottom 5 schools
+top 5 schools - https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/top_5_schools.PNG
+bottom 5 schools - https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/bottom_5_schools.PNG
+
+7) Scores by school spending
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/spending_summary.PNG
+the finding is vey interesting, that the school spending per school was not significatly improve the school performance. 
+
+8) Scores by school size
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_size_analysis.PNG
+
+9) Scores by school type
+https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/school_type_analysis.PNG
+
+It is very obvious that chartet school performed significatly better in the below academic performance. Especially, math performance was significantly successful. 
+
+School Type					
+Charter	- Average Math Score:83.5, 	Average Reading Score:83.9,		% Passing Math:90,	% Passing Reading:93	% Overall Passing:87%
+District	- Average Math Score:77.0	Average Reading Score: 81.0,	% Passing Math:67,	% Passing Reading: 81	% Overall Passing:54%
 
 Summary: 
 Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
