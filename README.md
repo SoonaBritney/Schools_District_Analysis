@@ -43,7 +43,18 @@ https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/
 - It means, if we included the THS_9's dishonest math and reading scores, the overall average reading and math score would be up.  
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/district_summary.PNG
 
+BEFORE AD AFTER WE CHNAGE Thomas High School 9th Grade students data to Nan
 
+BEFORE WE DROP THS_9 record as NAN ========> AFTER WE DROP THS_9 records as NAN
+Total Schools	15 ===========> 15 (Analysis: it is school data specific, so there is no impact)
+Total Students	39,170 ===========> 38,709 (Analysis: the total student is decreaed for 461, which will impact the average score, school budget per capital, school performance per School size, School performance per grade, etc. will impact the entire analysis. )
+Total Budget	$24,649,428.00 ===========> $24,649,428.00 (Analysis: it is same but if we drop the student account, it will misinform that per student school budget spnding will look like increaesed, and it is not true.)
+Average Math Score	79.0 ==============> 78.9 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the average math score was 0.1% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+Average Reading Score		81.9 ============> 81.9 (Analysis: it looks like same, but it is calculated per new total student account, 38,709.)
+% Passing Math	75.0 ================> 74.8  (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Math was 0.2% highr before. It could be a good evidence, the academic performance was dishonest for THS 9th grade students in math.)
+% Passing Reading		85.8 ==============>  85.7 (Analaysis: When we included the Thomas High School (THS) 9th score as was, the % Passing Reading was 01.% lower before. It could be a good evidence, that THS 9th greade students are not actully outprrforming group. It concerns the data quality and realiability & validity of the School Analysis.)
+% Overall Passing 65.2 ===============>  64.9 (Analaysis: Once again, When we included the Thomas High School (THS) 9th math and reading scores as was, % Overall Passing as was 0.3% higher before. It could be a good evidence, the academic performance was dishonest for the THS 9th grade students in math.)
+			
 2) How is the school summary affected?
 - We analyzed the school summery per school, and here is the summary
 https://github.com/SoonaBritney/Schools_District_Analysis/blob/main/screenshots/per_school_summary.PNG
@@ -99,13 +110,4 @@ Analysis (18 points)
 The written analysis has the following:
 
 
-
-Overview of the school district analysis:
-
-The purpose of this analysis is well defined (3 pt).
-Results:
-
-There is a bulleted list that addresses how each of the seven school district metrics was affected by the changes in the data (10 pt).
-Summary:
-
-There is a statement summarizing four major changes to the school district analysis after reading and math scores have been replaced (5 pt).
+ave 
